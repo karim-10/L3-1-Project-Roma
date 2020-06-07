@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Condensed&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Piedra&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Mr+Dafoe&display=swap" rel="stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&family=Monoton&family=Roboto:wght@700&display=swap" rel="stylesheet");
+*{
+    margin: 0 auto;    
+    
+}  
+/*_________ header _______*/
+/*_________ header _______*/
+/*_________ header _______*/
+header{
+    height: 100vh;
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+}
+header a{
+    position: relative;
+    font-size: 2em;
+    text-align: right;
+    left: 39em;
+    top: 0.3em;
+    color: white;
+    text-decoration-color: #e7bc0e;
+}  
+header a:hover{
+    color: whitesmoke;
+    opacity: 0.7;
+}
+header img {
+    position: relative;
+    top: 0.9em;
+    left: 65em;
+}
+header p {
+    color: white;
+    font-size: 4em;
+    font-family: 'Piedra';
+    padding-left: 1.6em;
+    padding-top: 20%;
+    font-weight: 900;
+}
+/*____________section 1 There are Millions....usw ________*/
+/*____________section 1 There are Millions....usw ________*/
+/*____________section 1 There are Millions....usw ________*/
+
+section:nth-of-type(1) {
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+    height: 100vh;
+}
+section:nth-of-type(1)>p{
+    color: #e7bc0e ;
+    padding-top: 90px;
+    padding-left: 2.2em;
+    font-size: 3em;
+    font-family: 'Mr Dafoe', cursive;
+    font-weight: bold;
+}
+section:nth-of-type(2){
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+    height: 100vh;
+}
+section:nth-of-type(2)>p{
+    color: #6bc1a3;
+    font-size: 32px;
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    line-height: 2em;
+    word-spacing: 0.4em;
+}
+section:nth-of-type(2) span{
+    background-color: #000;
+    color: white;
+}
+
+/*__________ section 3 > empty section ________*/
+/*__________ section 3 > empty section ________*/
+/*__________ section 3 > empty section ________*/
+
+section:nth-of-type(3){
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+    height: 100vh;
+}
+/*________section 4 > 2.5 Million ______*/
+/*________section 4 > 2.5 Million ______*/
+/*________section 4 > 2.5 Million ______*/
+
+section:nth-of-type(4){
+    height: 100vh;
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+
+}
+section:nth-of-type(4)>img{
+    padding-left: 100px;
+    margin-top: -120px; 
+}
+section:nth-of-type(4)>p{
+    color: #e7bc0e;
+    font-family: 'Piedra';
+    
+    
+}
+section:nth-of-type(4) span:nth-of-type(1){
+    font-size: 10.9em;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+section:nth-of-type(4) span:nth-of-type(2){
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-left: 100px;
+    
+} 
+section:nth-of-type(4) span:nth-of-type(3){
+    background-color: #000;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-left: 15px;
+    
+}
+
+/*__________section  5 > 70% are paid less than _______*/
+/*__________section  5 > 70% are paid less than _______*/
+/*__________section  5 > 70% are paid less than _______*/
+
+
+section:nth-of-type(5){
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+
+    height: 100vh;
+    color: #cb91b6;
+}
+section:nth-of-type(5) img{
+    margin: 50px 0px 0px 100px;
+}
+section:nth-of-type(5) span:nth-of-type(1){
+    margin-left: 100px;
+    font-size: 50px;
+}
+section:nth-of-type(5) span:nth-of-type(2){
+    color: white;
+    background-color: #000 ;
+    font-size: 50px;
+    margin-left: 10px;
+}
+section:nth-of-type(5) p:nth-of-type(2){
+    padding-top: 0px;
+    padding-left: 100px;
+    font-size: 200px;
+    font-weight: bold;
+    
+}
+
+/*______section 6 > 65% Have no health insurance _______*/
+/*______section 6 > 65% Have no health insurance _______*/
+/*______section 6 > 65% Have no health insurance _______*/
+
+section:nth-of-type(6) {
+    height: 100vh;
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+
+}
+section:nth-of-type(6) img {
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
+section:nth-of-type(6) p:nth-of-type(1){
+    color: #6bc1a3 ;
+    font-size: 200px;
+    font-weight: bold;
+    padding-left: 100px;
+    margin-top: 60px;
+    
+  
+}
+section:nth-of-type(6) span:nth-of-type(1){
+    color: #6bc1a3 ;
+    padding-left: 100px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section:nth-of-type(6) span:nth-of-type(2){
+    color: white;
+    background-color: #fff;
+    background-color: #000 ;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/*_________section 7 > Have on health insturance _____*/
+
+section:nth-of-type(7) {
+    height: 100vh;
+    background: url(../img/cleo-topper.jpg) center/cover fixed no-repeat ;
+}    
+section:nth-of-type(7) p{
+    color: #7eb8e1 ;
+    font-size: 2.5em;
+    padding-top: 250px;
+    padding-left: 400px;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: 'Monoton', cursive;
+} 
+
+section:nth-of-type(7) span{
+    color: white;
+    background-color: #000;
+    
+}
+
+/*________ section 8  kid image + see backgroung  ________*/
+/*________ section 8  kid image + see backgroung  ________*/
+/*________ section 8  kid image + see backgroung  ________*/
+
+
+section:nth-of-type(8) {
+    height: 100vh;
+    background: url(../img/see.png) center/cover scroll no-repeat;
+    
+    
+}
+section:nth-of-type(8) img{
+    
+   
+    
+}
+
+
+/*___________section 9 you can help und Donate anchor tag _________*/
+/*___________section 9 you can help und Donate anchor tag _________*/
+/*___________section 9 you can help und Donate anchor tag _________*/
+
+
+
+section:nth-of-type(9) {
+    height: 100vh;
+    background-color: #000;
+}
+
+section:nth-of-type(9) p{
+    font-size: 70px;
+    margin: auto auto auto 250px;
+    padding-top: 180px;
+    color: #fff;
+    font-weight: bold;
+
+}
+section:nth-of-type(9) a{
+    text-decoration: none;
+    border: solid 2px white;
+    font-size: 30px;
+    color: white;
+    margin-left: 250px; 
+    padding: 10px 30px;
+    position: relative;
+    top: 50px;
+    
+}
+section:nth-of-type(9) a:hover{
+    color: gray;
+    opacity: 0.7;
+    box-shadow: 6px 6px  grey;
+}
+
